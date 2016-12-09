@@ -2,7 +2,7 @@
   "name": "gfd",
   "version": "1.0.0",
   "description": "Services to manage customers, invoices and quotes",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,8 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1",
+    "passport": "^0.3.2"
   }
 }
