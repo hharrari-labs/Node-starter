@@ -2,25 +2,28 @@
   "name": "gfd",
   "version": "1.0.0",
   "description": "Services to manage customers, invoices and quotes",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
+  "repository": {     
+    "type": "git",     
     "url": "git+ssh://git@gitlab.com/hharrari/GFD.git"
   },
   "author": "Harrari Hakim",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/hharrari/GFD/issues"
+      "url": "https://gitlab.com/hharrari/GFD/issues"
   },
   "homepage": "https://gitlab.com/hharrari/GFD#README",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.14.0",
-    "mongoose": "^4.7.1",
-    "passport": "^0.3.2"
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
   }
 }
+
